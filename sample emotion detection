@@ -1,0 +1,12 @@
+from deepface import DeepFace
+from PIL import Image
+
+# load image
+image_path = "demo6.jpg"
+
+# Analuze emotions
+result = DeepFace.analyze(image_path, actions=["emotion"])
+
+# Display result
+print("Detected Emotion:",result[0]["dominant_emotion"])
+Image.open(image_path).show()
