@@ -10,3 +10,12 @@ result = DeepFace.analyze(image_path, actions=["emotion"])
 # Display result
 print("Detected Emotion:",result[0]["dominant_emotion"])
 Image.open(image_path).show()
+
+
+
+
+
+
+
+#OUTPUT
+ Detected Emotion: fear
