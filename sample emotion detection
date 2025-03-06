@@ -18,4 +18,4 @@ Image.open(image_path).show()
 
 
 #OUTPUT
- Detected Emotion: fear
+ Detected Emotion: neutral # any emotion like fear, happy, sad,.....
