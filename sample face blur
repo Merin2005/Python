@@ -20,3 +20,11 @@ for(x, y, w, h) in faces:
 
 #show result
 cv2_imshow(image)
+
+
+
+
+
+
+
+#add the images below sample_data by uploading 
