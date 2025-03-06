@@ -5,7 +5,7 @@ from google.colab.patches import cv2_imshow
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 # Load image
-image = cv2.imread("demo4.jpeg")
+image = cv2.imread("demo4.jpg")
 #in bracket the image name is given
   
 # Detect faces
